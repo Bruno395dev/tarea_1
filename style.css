@@ -1,0 +1,93 @@
+:root {
+    --color-principal: #ff0000;
+    --color-secundario: #5e8615;
+    --fuente-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-family: var(--fuente-base);
+    background-color: #c9bbbbe9;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+}
+
+
+#main-title {
+    color: var(--color-principal);
+    text-align: center;
+}
+
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--color-principal);
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: all 0.5s ease;
+}
+
+
+.main-nav a:hover {
+    color: #d0ff00;
+    background-color: var(--color-secundario);
+    border-radius: 5px;
+}
+
+
+img {
+    max-width: 300px;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid var(--color-secundario);
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+    color: #707077;
+}
+
+form input,
+form select {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-family: var(--fuente-base);
+}
+
+form button {
+    padding: 10px;
+    background-color: var(--color-principal);
+    color: rgb(205, 215, 7);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--fuente-base);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    color: #0318ff;
+}
