@@ -16,7 +16,7 @@ Este proyecto es una tarea de nivelacion del curso de react js, en el cual se no
 
 ## Clonar Repo y Configurar el Entorno
 
-- Dentro de la consola de powershell en visaul studio code u el IDE de confianza que utilices ejecutamos el comando , gh repo clone Bruno395dev/tarea_1
+- Dentro de la consola de powershell en visual studio code u el IDE de confianza que utilices ejecutamos el comando , gh repo clone Bruno395dev/tarea_1
 - Una vez clonado el repositorio debe instalar la extension live server de ritwickdey en su IDE.
 ## Ejecutar
 
